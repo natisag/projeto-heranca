@@ -9,10 +9,12 @@ public class Main {
 
         Cachorro cachorro = new Cachorro("Rex", 3, "Labrador");
         Gato gato = new Gato("Mimi", 2, "Branco");
+        Vaca vaca = new Vaca("Mimosa", 5, "Preta e Branca");
 
         List<Animal> animais = new ArrayList<>();
         animais.add(cachorro);
         animais.add(gato);
+        animais.add(vaca);
 
         for (Animal animal : animais) {
             System.out.println(animal);
