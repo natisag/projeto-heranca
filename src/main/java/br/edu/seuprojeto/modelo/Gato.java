@@ -16,4 +16,9 @@ public class Gato extends Animal {
     public String getCor() {
         return cor;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Tipo: Gato";
+    }
 }
