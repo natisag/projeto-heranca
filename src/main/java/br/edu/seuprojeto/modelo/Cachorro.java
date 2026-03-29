@@ -10,7 +10,7 @@ public class Cachorro extends Animal {
 
     @Override
     public void fazerSom() {
-        System.out.println(getNome() + " diz: Au Au!");
+        System.out.println(getNome() + " diz: Au Au Au!");
     }
 
     public String getRaca() {
